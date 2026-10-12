@@ -1,0 +1,11 @@
+{
+  "org": "aio-libs",
+  "repo": "async-timeout",
+  "versions": [
+    {
+      "commit": "7dc0022fb8160e3d7905cefa279e034e37063814",
+      "tag": "",
+      "parsed_at": "2026-10-12T22:02:38.086272+00:00"
+    }
+  ]
+}
