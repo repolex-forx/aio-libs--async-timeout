@@ -68,6 +68,96 @@
       ],
       "ast": [
         "aggregate/ast/cc52d410e733b302873e6e52db9a9b6578d053a4/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/cc52d410e733b302873e6e52db9a9b6578d053a4.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "build",
+          "ecosystem": "PYPI",
+          "version": "1.2.2.",
+          "githubOrg": "pypa",
+          "githubRepo": "build",
+          "githubUrl": "https://github.com/pypa/build",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "mypy",
+          "ecosystem": "PYPI",
+          "version": "1.13.0",
+          "githubOrg": "python",
+          "githubRepo": "mypy",
+          "githubCommit": "eb310343be0399ea6755fabc259755ce1f6711e8",
+          "githubTag": "v1.13.0",
+          "githubUrl": "https://github.com/python/mypy",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pre-commit",
+          "ecosystem": "PYPI",
+          "version": "4.0.1",
+          "githubOrg": "pre-commit",
+          "githubRepo": "pre-commit",
+          "githubCommit": "cc4a52241565440ce200666799eef70626457488",
+          "githubTag": "v4.0.1",
+          "githubUrl": "https://github.com/pre-commit/pre-commit",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest",
+          "ecosystem": "PYPI",
+          "version": "8.3.3",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest",
+          "githubCommit": "d0f136fe64f9374f18a04562305b178fb380d1ec",
+          "githubTag": "8.3.3",
+          "githubUrl": "https://github.com/pytest-dev/pytest",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest-asyncio",
+          "ecosystem": "PYPI",
+          "version": "0.24.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-asyncio",
+          "githubCommit": "fb5422f94d4a85b8f2a0ea2731f5ebeae5fcd7e8",
+          "githubTag": "v0.24.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-asyncio",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "pytest-cov",
+          "ecosystem": "PYPI",
+          "version": "6.0.0",
+          "githubOrg": "pytest-dev",
+          "githubRepo": "pytest-cov",
+          "githubCommit": "95404375a0e436178e012e20b8865c23c54c8a50",
+          "githubTag": "v6.0.0",
+          "githubUrl": "https://github.com/pytest-dev/pytest-cov",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "twine",
+          "ecosystem": "PYPI",
+          "version": "5.1.1",
+          "githubOrg": "pypa",
+          "githubRepo": "twine",
+          "githubCommit": "e29791dcbcd4d39ffc5c4ce2e38e3884005bd368",
+          "githubTag": "v5.1.1",
+          "githubUrl": "https://github.com/pypa/twine",
+          "source": "build_file:requirements.txt"
+        },
+        {
+          "packageName": "setuptools",
+          "ecosystem": "PYPI",
+          "version": "84.2.1",
+          "githubOrg": "pypa",
+          "githubRepo": "setuptools",
+          "githubCommit": "3895f9829fc0e51882981773a823a658eb1d1636",
+          "githubTag": "v84.2.1",
+          "githubUrl": "https://github.com/pypa/setuptools",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/setuptools/__init__.py"
+        }
       ]
     }
   ],
